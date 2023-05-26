@@ -1,0 +1,73 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100dvh;
+  background-color: black;
+  /* color: rgb(247, 233, 209); */
+}
+
+.container {
+  background-color: white;
+  width: 550px;
+  border-radius: 8px;
+  padding: 3rem;
+}
+
+.heading_text {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.heading_two {
+  padding-top: 5px;
+}
+
+.total_amount_card {
+  width: 450px;
+  height: 120px;
+  background-color: rgb(223, 233, 168);
+  margin-top: 20px;
+}
+
+.card_text {
+  padding-top: 30px;
+}
+
+.total_amount_symbol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.total_amount_para {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.input_field {
+  margin-top: 20px;
+  width: 450px;
+}
+
+.outlined-basic {
+  width: 450px;
+}
+
+.btn_group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 250px;
+  height: 50px;
+}
